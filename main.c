@@ -38,8 +38,7 @@ int main(){
     printf("sport: %d \n",(*(p+34)<<8)+ *(p+35));
     printf("dport: %d \n",(*(p+36)<<8)+ *(p+37));
     printf("http : ");
-    for(i=0;i<16;i++) printf("%c", *(p+76+i));
-    printf("\n");
+    for(i=0;i<16;i++) printf("%c", *(p+54+i));
 
     return 0;
 }
